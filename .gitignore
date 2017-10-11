@@ -3,3 +3,8 @@
 /Results/
 /finalResult/
 /src/main/resources/
+/bin/
+/build/
+/.gradle/
+/.settings/
+/log/
