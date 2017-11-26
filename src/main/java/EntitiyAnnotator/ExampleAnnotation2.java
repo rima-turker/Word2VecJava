@@ -39,14 +39,14 @@ public class ExampleAnnotation2
 //	private final Word2Vec model1 = null;
 //	private final Word2Vec modelEntities = null;
 	
-	private final Word2Vec model1 = WordVectorSerializer.readWord2VecModel("/home/rtue/workspace/Word2VecJava/Word2VecModels/model_wiki_latest_1E3W.bin");
-	private final Word2Vec modelEntities = WordVectorSerializer.readWord2VecModel("/home/rtue/workspace/Word2VecJava/Word2VecModels/modelWikiLinkSentences_0.3_onlyLinks.bin");
+	private final Word2Vec model1 = null;// WordVectorSerializer.readWord2VecModel("/home/rtue/workspace/Word2VecJava/Word2VecModels/model_wiki_latest_1E3W.bin");
+	private final Word2Vec modelEntities = null;// WordVectorSerializer.readWord2VecModel("/home/rtue/workspace/Word2VecJava/Word2VecModels/modelWikiLinkSentences_0.3_onlyLinks.bin");
 		
 	public void startAnnotation() 
 	{
 		long now = System.currentTimeMillis();
 		//sentence = "Armstrong was an American astronaut engineer and the first person to walk on the Moon";
-		String fileName = "/home/rtue/workspace/Word2VecJava/src/main/resources/TestSet_Ambigous";
+		String fileName = "/home/rtue/workspace/Word2VecJava/TestSentences";
 		Integer ifile=0;
 		try 
 		{

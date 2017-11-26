@@ -35,7 +35,7 @@ public class Main {
 //
 //        System.err.println(Test.run());
         
-		new ExampleAnnotation2().startAnnotation();
+		new EntitiyAnnotator_V_3().getAnnotation();
 //		EntitiyPopularity ent = new EntitiyPopularity();
 //		ent.findIndegreeCount("/home/rtue/workspace/Word2VecJava/src/main/resources/dbpediaEntities_10.2016_clean");
 //		ent.findIndegreeCount_paralel("/home/rima/playground/GenerateTree/dbpediaEntities_10.2016_clean",50);

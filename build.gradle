@@ -38,6 +38,9 @@ dependencies {
 compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.1'
 	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
 compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.1'
+// https://mvnrepository.com/artifact/info.debatty/java-string-similarity
+compile group: 'info.debatty', name: 'java-string-similarity', version: '0.10'
+
     
     
 }
